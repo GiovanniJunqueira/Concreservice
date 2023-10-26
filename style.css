@@ -1,0 +1,57 @@
+
+.slogan{
+    flex-direction: column;    
+}
+    .slogan h1 {
+        flex-shrink: 0;
+        color: #1E1E1E;
+        font-family: Arial;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .slogan h2{
+        flex-shrink: 0;
+        color: #CE5404;
+        font-family: Arial;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .slogan p{
+        flex-shrink: 0;
+        color: #1E1E1E;
+        font-family: Arial;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .slogan a{
+        color: #FFF;
+        font-family: Arial;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 8px;
+        background: #00314F;
+
+    }
+
+.nossostrabalhos{
+    padding-top: 16px;
+}
+    .nossostrabalhos h2{
+        color: #CE5404;
+        font-family: Arial;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: normal;
+    }
