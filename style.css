@@ -6,7 +6,7 @@
         flex-shrink: 0;
         color: #1E1E1E;
         font-family: Arial;
-        font-size: 10px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -14,10 +14,9 @@
     }
 
     .slogan h2{
-        flex-shrink: 0;
         color: #CE5404;
         font-family: Arial;
-        font-size: 22px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -26,7 +25,7 @@
         flex-shrink: 0;
         color: #1E1E1E;
         font-family: Arial;
-        font-size: 8px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -34,11 +33,11 @@
     .slogan a{
         color: #FFF;
         font-family: Arial;
-        font-size: 10px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        border-radius: 8px;
+        border-radius: 150px;
         background: #00314F;
 
     }
@@ -48,10 +47,21 @@
 }
     .nossostrabalhos h2{
         color: #CE5404;
+        text-transform: uppercase;
         font-family: Arial;
-        font-size: 22px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
-        text-transform: uppercase;
         line-height: normal;
     }
+    .nossostrabalhos p{
+        color: #1E1E1E;
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
