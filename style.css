@@ -1,3 +1,9 @@
+.header{
+    height: 430px;
+    background-image: url('imagens/BannerConcreService.png');
+    background-repeat: no-repeat;
+    background-position:right;
+}
 
 .slogan{
     flex-direction: column;    
@@ -31,6 +37,7 @@
         line-height: normal;
     }
     .slogan a{
+        text-decoration: none;
         color: #FFF;
         font-family: Arial;
         font-size: 25px;
@@ -96,6 +103,7 @@
         line-height: normal;
         border-radius: 150px;
         background: #00314F;
+        text-decoration: none;
     }
 
 .rodape{
