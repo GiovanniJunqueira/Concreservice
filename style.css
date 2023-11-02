@@ -1,4 +1,5 @@
 .header{
+    margin-left: 20px;
     height: 430px;
     background-image: url('imagens/BannerConcreService.png');
     background-repeat: no-repeat;
@@ -46,6 +47,7 @@
         line-height: normal;
         border-radius: 150px;
         background: #00314F;
+        padding: 8px 50px;
 
     }
 
@@ -104,6 +106,7 @@
         border-radius: 150px;
         background: #00314F;
         text-decoration: none;
+        padding: 8px 50px;
     }
 
 .rodape{
