@@ -69,7 +69,7 @@
         font-weight: 700;
         line-height: normal;
     }
-    .nossostrabalhos p{
+    .nossostrabalhos span{
         color: #1E1E1E;
         text-align: center;
         font-family: Arial;
@@ -84,6 +84,75 @@
         margin-top: 25px;
         width: 95%;
     }
+
+.team-image{
+    position: relative;
+}
+
+.team-image:hover .reforma{display: flex;}
+.team-image:hover .construcao{display: flex;}
+
+.construcao{
+    margin-top: 25px;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 49, 79, 0.50);
+}
+    .construcao h3{
+        color: #FFF;
+        font-family: Arial;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .construcao p{
+        color: #FFF;
+        text-align: center;
+        font-family: Arial;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+.reforma{
+    color: white;
+    margin-top: 25px;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(206, 84, 4, 0.50);
+}
+.reforma h3{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.reforma p{
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .proximopasso{
     margin-top: 50px;
@@ -123,6 +192,9 @@
         text-decoration: none;
         padding: 8px 50px;
     }
+
+
+
 
 .rodape{   
     background: #00314F;
