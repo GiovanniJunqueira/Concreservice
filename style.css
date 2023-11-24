@@ -103,7 +103,7 @@
     display: none;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 49, 79, 0.50);
+    background-color: rgba(0, 49, 79, 0.50);    
 }
     .construcao h3{
         color: #FFF;
@@ -192,11 +192,13 @@
         text-decoration: none;
         padding: 8px 50px;
     }
-
-
-
-
+    
 .rodape{   
     background: #00314F;
     height: 34px;
+}
+
+.slick-lightbox-slick-caption{
+    background-color: orange;
+    
 }
